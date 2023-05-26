@@ -1,14 +1,14 @@
 from distutils.core import setup, Extension
 
 spline = Extension(
-	'spline', # название модуля внутри Python
-	 sources = ['spline.c'] # Исходные файлы модуля
+	'spline', 
+	 sources = ['spline.c'] 
 )
 
 setup(
 	name = 'spline',
 	version = '0.1',
-	description = 'Approximation using splines',
+	description = 'Spline interpolation,
 	ext_modules= [spline])
 
 
